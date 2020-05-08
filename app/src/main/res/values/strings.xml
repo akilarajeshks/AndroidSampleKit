@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidSampleKit</string>
+    <string name="memory_leak">MEMORY LEAK</string>
 </resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="memory_leak_fragment">CLICK FOR DEMO</string>
+    <string name="intro">A memory leak happens when memory is allocated for an object, but is subsequently never cleared by the garbage collector.
+        We will now simulate one such leak. We\'ll try and leak the current instance of this activity.
+        We pass the activity instance and store it as a field in a thread. We start that thread and make it last for 60 seconds.
+        In that time, if you rotate your device, the activity will get recreated but the old instance of the activity that was passed to the thread is being referred by the thread and can never be collected by the garbage collector.</string>
+    <string name="introduction">Introduction</string>
+
+</resources>
