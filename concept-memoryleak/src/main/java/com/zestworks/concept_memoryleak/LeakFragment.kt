@@ -17,7 +17,7 @@ class LeakFragment : Fragment(R.layout.fragment_leak) {
             Toast.makeText(context, "Rotate for memory leak", Toast.LENGTH_SHORT).show()
         }
 
-        webView.loadUrl("https://raw.githubusercontent.com/prithivraj/DistanceFilter/master/src/main/java/Main.kt")
+        webView.loadUrl("https://raw.githubusercontent.com/akilarajeshks/AndroidSampleKit/master/concept-memoryleak/src/main/java/com/zestworks/concept_memoryleak/LeakFragment.kt")
     }
 }
 
