@@ -12,7 +12,7 @@
         style="@style/TextAppearance.MaterialComponents.Headline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/introduction"
+        android:text="@string/introduction_thread_safety"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -21,7 +21,7 @@
         style="@style/Widget.MaterialComponents.TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/intro"
+        android:text="@string/intro_thread_safety"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
