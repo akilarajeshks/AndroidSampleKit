@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/concept-memoryleak" />
+            <option value="$PROJECT_DIR$/concept-threadsafe" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

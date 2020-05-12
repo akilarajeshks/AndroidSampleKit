@@ -14,5 +14,8 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         btn_navigate_leak.setOnClickListener {
             findNavController().navigate(R.id.action_mainFragment_to_leakFragment)
         }
+        btn_navigate_thread.setOnClickListener {
+            findNavController().navigate(R.id.action_mainFragment_to_threadSafetyFragment)
+        }
     }
 }

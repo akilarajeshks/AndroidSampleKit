@@ -1,3 +1,4 @@
+include ':concept-threadsafe'
 include ':concept-memoryleak'
 include ':app'
 rootProject.name = "AndroidSampleKit"

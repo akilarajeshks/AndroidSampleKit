@@ -13,11 +13,19 @@
         <action
             android:id="@+id/action_mainFragment_to_leakFragment"
             app:destination="@id/leakFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_threadSafetyFragment"
+            app:destination="@id/threadSafetyFragment" />
     </fragment>
     <fragment
         android:id="@+id/leakFragment"
         android:name="com.zestworks.concept_memoryleak.LeakFragment"
         android:label="LeakFragment"
         tools:layout="@layout/fragment_leak" />
+    <fragment
+        android:id="@+id/threadSafetyFragment"
+        android:name="com.zestworks.concept_threadsafe.ThreadSafetyFragment"
+        android:label="ThreadSafetyFragment"
+        tools:layout="@layout/fragment_thread_safety" />
 
 </navigation>
