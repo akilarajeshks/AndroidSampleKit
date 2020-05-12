@@ -59,6 +59,8 @@ class ThreadSafetyFragment : Fragment(R.layout.fragment_thread_safety) {
         countLiveData.observe(viewLifecycleOwner, Observer {
             textView_counter.text = it.toString()
         })
+
+        webView_thread.loadUrl("https://raw.githubusercontent.com/akilarajeshks/AndroidSampleKit/master/concept-threadsafe/src/main/java/com/zestworks/concept_threadsafe/ThreadSafetyFragment.kt")
     }
 
     private fun increment() {
